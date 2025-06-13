@@ -66,7 +66,7 @@ Optional desktop shortcut
 
 Auto-runs grace.cmd post-install
 
-Installation path: C:\Program Files\Project Browser (or BittoSystem)
+Installation path: C:\Program Files\BittoSystem
 
 ✅ Features
 Search engine functionality
