@@ -66,26 +66,8 @@ Optional desktop shortcut
 
 Auto-runs grace.cmd post-install
 
-Installation path: C:\Program Files\BittoSystem
+Installation path: C:\Program Files\Project Browser (or BittoSystem)
 
-Supports language selection (English by default)
-
-📁 Project Structure
-css
-Copy
-Edit
-ProjectBrowser/
-├── INTERNALS/
-│   ├── websites/
-│   ├── placeholder.py
-│   ├── grace.cmd
-│   └── ...
-├── app.py
-├── console_app.py
-├── main.cpp
-├── ProjectBrowserInstaller.iss
-├── ProjectBrowserInstaller.exe
-├── README.md
 ✅ Features
 Search engine functionality
 
@@ -96,8 +78,6 @@ Cross-platform console and web-based versions
 Windows installer for easy setup
 
 Optional desktop shortcut
-
-Customizable installer messages
 
 📜 License
 MIT License — free for personal and commercial use.
