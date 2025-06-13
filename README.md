@@ -15,7 +15,7 @@ C:\Program Files\BittoSystem
 
 (Optional) Check the box to create a desktop shortcut.
 
-Once installed, the program will automatically run grace.cmd which launches the main system.
+Once installed, the program will automatically run grace.cmd which launches a .html file for no reason lol
 
 📦 Contents:
 🖥️ 1. Python Web Version (Flask)
