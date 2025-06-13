@@ -1,31 +1,104 @@
-# Mini Search Engine & Website Creator
+📖 Project Browser — Mini Search Engine & Website Creator
+This project includes multiple implementations of a simple search engine and website creator — both for web and console use, along with a Windows installer.
 
-This project includes three implementations of a simple search engine and website creator:
+📥 Installation & Usage
+Important:
+After downloading the project ZIP file:
 
-1. **Python Web Version (Flask):**  
-   - `app.py`  
-   - Run with:  
-     ```
-     pip install flask
-     python app.py
-     ```
-   - Access via browser at `http://127.0.0.1:5000/`
+Extract the entire ZIP file to a folder.
 
-2. **Python Console Version:**  
-   - `console_app.py`  
-   - Run with:  
-     ```
-     python console_app.py
-     ```
+Run the installer:
+ProjectBrowserInstaller.exe
 
-3. **C++ Console Version:**  
-   - `main.cpp`  
-   - Compile with:  
-     ```
-     g++ -std=c++17 -o main main.cpp
-     ./main
-     ```
+Follow the installer steps to install Project Browser to
+C:\Program Files\BittoSystem
 
-All implementations store created websites as HTML files in a `websites` folder.
+(Optional) Check the box to create a desktop shortcut.
 
----
+Once installed, the program will automatically run grace.cmd which launches the main system.
+
+📦 Contents:
+🖥️ 1. Python Web Version (Flask)
+File: app.py
+
+How to run:
+
+bash
+Copy
+Edit
+pip install flask
+python app.py
+Access: http://127.0.0.1:5000/ in your browser
+
+Output: HTML files stored in the websites folder
+
+🖥️ 2. Python Console Version
+File: console_app.py
+
+How to run:
+
+bash
+Copy
+Edit
+python console_app.py
+Output: HTML files saved to the websites folder
+
+💾 3. C++ Console Version
+File: main.cpp
+
+Compile and run:
+
+bash
+Copy
+Edit
+g++ -std=c++17 -o main main.cpp
+./main
+Output: HTML files stored in the websites folder
+
+📦 📦 4. Windows Installer Version
+Installer file: ProjectBrowserInstaller.exe
+
+Installs:
+
+All INTERNALS files
+
+Optional desktop shortcut
+
+Auto-runs grace.cmd post-install
+
+Installation path: C:\Program Files\BittoSystem
+
+Supports language selection (English by default)
+
+📁 Project Structure
+css
+Copy
+Edit
+ProjectBrowser/
+├── INTERNALS/
+│   ├── websites/
+│   ├── placeholder.py
+│   ├── grace.cmd
+│   └── ...
+├── app.py
+├── console_app.py
+├── main.cpp
+├── ProjectBrowserInstaller.iss
+├── ProjectBrowserInstaller.exe
+├── README.md
+✅ Features
+Search engine functionality
+
+Website creation (HTML file generator)
+
+Cross-platform console and web-based versions
+
+Windows installer for easy setup
+
+Optional desktop shortcut
+
+Customizable installer messages
+
+📜 License
+MIT License — free for personal and commercial use.
+
